@@ -1,5 +1,5 @@
 # java-encryptor-swt
-<img src="https://github.com/RH-Xie/java-encryptor-swt/blob/main/encrytor.jpg" width="300" />
+<img src="https://github.com/RH-Xie/java-encryptor-swt/blob/main/encrytor.jpg" width="400" />
 
 A GUI encryptor written in Java.
 
