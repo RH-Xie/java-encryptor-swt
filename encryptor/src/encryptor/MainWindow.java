@@ -3,38 +3,19 @@ package encryptor;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.FileDialog;
 import org.eclipse.swt.widgets.Shell;
-import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Label;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
 
-import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
 
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.MessageBox;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.DirectoryDialog;
 import org.eclipse.swt.events.MouseAdapter;
 import org.eclipse.swt.events.MouseEvent;
-import org.eclipse.swt.layout.FormLayout;
-import org.eclipse.swt.layout.FormData;
-import org.eclipse.swt.layout.FormAttachment;
-import org.eclipse.swt.layout.RowLayout;
-import swing2swt.layout.BoxLayout;
-import org.eclipse.swt.layout.FillLayout;
-import swing2swt.layout.FlowLayout;
 import org.eclipse.swt.widgets.Combo;
-import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
@@ -186,7 +167,7 @@ public class MainWindow {
 		});
 		encryptButton.setBounds(410, 296, 98, 34);
 		encryptButton.setText("加密");
-		
+		/*
 		Button button = new Button(shell, SWT.NONE);
 		button.addMouseListener(new MouseAdapter() {
 			@Override
@@ -201,7 +182,7 @@ public class MainWindow {
 		});
 		button.setBounds(516, 17, 72, 34);
 		button.setText("测试");
-
+		*/
 	}
 
 	private String handleChooseFile() {
